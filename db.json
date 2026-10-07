@@ -1,0 +1,15 @@
+{
+  "grocery": [
+    {
+      "grocery": "coke",
+      "price": "120",
+      "id": "Ab5FbIdiCnM"
+    },
+    {
+      "grocery": "Dairy Milk",
+      "price": "300",
+      "id": "1AZco5mKiro"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
