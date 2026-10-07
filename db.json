@@ -11,5 +11,12 @@
       "id": "1AZco5mKiro"
     }
   ],
+  "user": [
+    {
+      "email": "superman@gmail.com",
+      "password": "superman",
+      "id": "dEXkamHZ2BY"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }

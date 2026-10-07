@@ -301,12 +301,12 @@ const CreateGrocery = () => {
 
         </div>
 
-        {/* Empty State */}
+        
         {(!grocery || grocery.length === 0) && (
           <div className="py-12 text-center">
 
             <div className="text-5xl mb-3">
-              🛒
+              
             </div>
 
             <h3 className="text-lg font-semibold text-gray-700">
@@ -322,7 +322,7 @@ const CreateGrocery = () => {
 
       </div>
 
-      {/* Total Price Card */}
+      
       <div className="mt-6 flex justify-end">
 
         <div className="w-full md:w-80 bg-white rounded-2xl 
