@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import {useForm} from "react-hook-form"
 import { deleteGrocery, GetGrocery, PostGrocery } from '../api/APIGrocery'
 import useQuantityStore from '../store/QuantityStore'
+import NavbarUser from '../components/NavbarUser'
 
 
 
@@ -60,15 +61,16 @@ const CreateGrocery = () => {
     
 
   return (
-    
+    <>
+    <NavbarUser/>
   <div className="min-h-screen bg-gray-100 py-10 px-4">
-
+    
     <div className="max-w-6xl mx-auto">
 
       {/* Page Header */}
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-gray-800">
-          🛒 Grocery Manager
+           Grocery Manager
         </h1>
         <p className="text-gray-500 mt-2">
           Add your grocery items and manage your shopping list easily.
@@ -103,7 +105,7 @@ const CreateGrocery = () => {
             />
           </div>
 
-          {/* Price */}
+          
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-2">
               Price
@@ -136,7 +138,7 @@ const CreateGrocery = () => {
             )}
           </div>
 
-          {/* Submit */}
+          
           <button
             type="submit"
             className="w-full md:w-auto px-7 py-3 rounded-xl 
@@ -156,7 +158,7 @@ const CreateGrocery = () => {
         {/* Table Header */}
         <div className="px-6 py-5 border-b border-gray-200">
           <h2 className="text-xl font-semibold text-gray-800">
-            🧺 Grocery List
+             Grocery List
           </h2>
 
           <p className="text-sm text-gray-500 mt-1">
@@ -205,23 +207,18 @@ const CreateGrocery = () => {
                     className="hover:bg-gray-50 transition"
                   >
 
-                    {/* Product */}
+                  
                     <td className="py-5 px-6">
                       <div className="flex items-center gap-3">
 
-                        <div className="w-10 h-10 rounded-full bg-blue-100 
-                        flex items-center justify-center">
-                          🛍️
-                        </div>
+                        
 
                         <div>
                           <p className="font-medium text-gray-800">
                             {gry.grocery}
                           </p>
 
-                          <p className="text-xs text-gray-400">
-                            Grocery item
-                          </p>
+                          
                         </div>
 
                       </div>
@@ -286,7 +283,7 @@ const CreateGrocery = () => {
                         hover:bg-red-100 
                         font-medium text-sm transition"
                       >
-                        🗑 Delete
+                         Delete
                       </button>
 
                     </td>
@@ -340,11 +337,6 @@ const CreateGrocery = () => {
               </h2>
             </div>
 
-            <div className="w-12 h-12 rounded-full bg-green-100 
-            flex items-center justify-center text-xl">
-              💰
-            </div>
-
           </div>
 
         </div>
@@ -354,7 +346,7 @@ const CreateGrocery = () => {
     </div>
 
   </div>
-
+</>
 
   )
 }

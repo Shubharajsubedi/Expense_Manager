@@ -46,7 +46,7 @@ const Navbar = () => {
 
         <div className='flex items-center gap-4'>
             <Link to={"/register"}>
-                <button className="px-4 py-2 text-purple-700 border-indigo-700 rounded-lg hover:bg-indigo-50 transition-colors duration-200">
+                <button className="px-4 py-2 text-purple-700 border-indigo-700 rounded-lg hover:bg-purple-900 hover:text-white transition-colors duration-200">
                     Register
                 </button>
             </Link>

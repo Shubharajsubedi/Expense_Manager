@@ -41,17 +41,24 @@ const NavbarUser = () => {
                         </Link>
 
                         <Link
-                            to="/food"
+                            to="/entertainment"
                             className="block px-4 py-2 text-gray-600 hover:bg-purple-50 hover:text-purple-800"
                         >
-                            Food
+                            Entertainment
                         </Link>
 
                         <Link
-                            to="/bills"
+                            to="/transportation"
                             className="block px-4 py-2 text-gray-600 hover:bg-purple-50 hover:text-purple-800"
                         >
-                            Bills
+                            Transportation
+                        </Link>
+
+                        <Link
+                            to="/tour"
+                            className="block px-4 py-2 text-gray-600 hover:bg-purple-50 hover:text-purple-800"
+                        >
+                            Tour
                         </Link>
 
                     </div>
@@ -61,9 +68,9 @@ const NavbarUser = () => {
             </li>
 
                 <li>
-                    <Link to={"contactus"}
+                    <Link to={"/salary"}
                     className='text-gray-600 hover:text-purple-800 transition-colors duration-200'>
-                    Contact Us
+                    Your Income
                     </Link>
                 </li>
 
