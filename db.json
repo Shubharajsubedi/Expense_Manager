@@ -9,6 +9,18 @@
       "grocery": "Dairy Milk",
       "price": "300",
       "id": "1AZco5mKiro"
+    },
+    {
+      "groceryitem": "",
+      "grocery": "rice",
+      "price": "1200",
+      "id": "zEluoDd0mNg"
+    },
+    {
+      "groceryitem": "",
+      "grocery": "egg",
+      "price": "5000",
+      "id": "Vy0DsHv4Pdg"
     }
   ],
   "user": [
@@ -16,7 +28,14 @@
       "email": "superman@gmail.com",
       "password": "superman",
       "id": "dEXkamHZ2BY"
+    },
+    {
+      "email": "ram@gmail.com",
+      "password": "ramayan",
+      "confirmpassword": "ramayan",
+      "id": "jSFFyowMTIo"
     }
   ],
+  "entertainment": [],
   "$schema": "./node_modules/json-server/schema.json"
 }
